@@ -1,0 +1,285 @@
+/* Root css styling */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --primary-font: "Josefin Sans", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    --text-color: #11161e;
+    --dark-hover-color: #151a32;
+    --light-color: #ffffff;
+    --dark-color: #000000;
+    --primary-color-light: #ff6f61;
+    --primary-color-dark: #ff5645;
+    --paragraph-color: #444444;
+    --bg-color-light: #f1f1f1;
+    --bg-color-dark: #f1f3f4;
+    --gray-color: #BDBDBD;
+    box-sizing: border-box;
+    --gray: #333333;
+    --dark-gray: #2f2f2f;
+    --light: #f4f4f4;
+    --yellow: #ffc200;
+    --light-yellow: #fadb7a;
+
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;  /* font family used in design file*/
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Grand Hotel', cursive;      /* font family used in design file*/   
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 70px !important;
+    color: var(--yellow) !important
+}
+
+header {
+    z-index: 2;
+    padding: 0 60px;
+    width: 1440px;
+    top: 10px;
+}
+
+nav p {
+
+    color: white;
+    padding-left: 36px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+    padding: 0 36px;
+}
+
+ul {
+    margin-left: -32px;
+}
+
+ul li:first-child {
+    margin-left: -32px;
+}
+
+
+/* First Section Main banner */
+
+.plain-banner{
+    left: 80%;
+}
+.banner {
+    background: url(../images/Main-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 30%;
+    height: 796px;
+    width: 1010px;
+    padding: 280px 380px 250px 230px;
+}
+
+.Main-dish>h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 80px;
+    color: var(--yellow);
+}
+
+/* Second Section  */
+.Best-Seller {
+    height: 960px;
+    padding: 140px 0 240px 0;
+}
+
+.Best-Seller h3 {
+    font-size: 60px;
+}
+
+.best-seller {
+    width: 890px;
+    color: var(--dark-gray);
+    padding: 20px 0 75px 0;
+
+}
+
+.dish {
+    width: 240px;
+}
+
+.dishes {
+    width: 1095px;
+}
+
+.dishes>div>p {
+    color: var(--dark-gray);
+}
+
+.dishes>div>h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+button {
+    font-weight: bold;
+    font-size: 8px;
+}
+
+p {
+    color: white;
+}
+
+/* Third Section */
+.Oriental {
+    background: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 185px;
+}
+.Main-dish1 {
+    border-radius: 50%;
+}
+
+.Main-dish {
+    width: 575px;
+
+}
+/* Fourth Section */
+.Statistics {
+    background: url(../images/Statistics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+    height: 1000px;
+}
+.stat-Title {
+    width: 800px;
+    margin-left: 12%;
+    padding-bottom: 100px;
+}
+
+#Key-numbers div h5 {
+
+    color: white;
+    font-size: 25px;
+}
+/* Fifith Section */
+.Grill {
+    background: url(../images/grill.png) bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+
+/* Sixth Section */
+.Lenora {
+    background: url(../images/LastSection.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 750px;
+    margin: auto;
+}
+
+.Lenora div {
+    width: 915px;
+}
+
+.Lenora>div>p {
+    color: var(--dark-gray);
+}
+
+.Lenora>div>h2 {
+    color: var(--dark-gray) !important
+}
+#Field-text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Seventh Section */
+.Subscribe {
+    background: url(../images/Subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    margin: auto;
+}
+
+.Subscribe div {
+    width: 800px;
+}
+
+.Subscribe>div>p {
+    color: var(--dark-gray);
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #35322d;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffb03b;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #46423b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #ffb03b;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
